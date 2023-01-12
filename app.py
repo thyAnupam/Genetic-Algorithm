@@ -11,7 +11,7 @@ def sphere(x):
 problem = structure()
 problem.costfunc = sphere
 problem.nvar = 5
-problem.varmin = [-10, -10, -1, -5,  4]
+problem.varmin = [-10, -10, -1, -5,  1]
 problem.varmax = [ 10,  10,  1,  5, 10]
 
 # GA Parameters
